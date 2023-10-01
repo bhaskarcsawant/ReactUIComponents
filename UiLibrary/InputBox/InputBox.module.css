@@ -1,0 +1,26 @@
+.inputboxContainer {
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.inputBox {
+    padding: 15px 20px 15px 15px;
+    border-radius: 5px;
+    outline-color: black;
+    width: 100%;
+    border: 2px solid #808080;
+    font-family: 'Helvetica';
+}
+
+.accountIcon {
+    fill: #808080;
+    transform: scale(0.8);
+    position: absolute;
+    right: 5px;
+    -webkit-transition: 150ms;
+}
+
+.inputBox:focus+.accountIcon {
+    fill: black;
+}
