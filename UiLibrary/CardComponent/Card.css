@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.card{
+    margin: 10px;
+    background-color: #fdfdfd;
+    color: rgb(153, 152, 152);
+    padding: 16px;
+    border: solid rgb(203, 203, 203) 1px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    width: 150px;
+    word-wrap: break-word;
+    text-align: center;
+}
+.card:hover{
+    transform: translateY(-5px);
+    transition: transform 0.1s ease-in-out;
+}
+
+h5{
+    padding-bottom: 10px;
+    color: rgb(78, 78, 78);
+}
+p{
+    margin:auto;
+    font-size: 12px;
+}
+a{
+    font-size: 11px;
+    margin-top: 12px;
+    color: white;
+    background-color: rgb(78, 78, 78);
+    display: inline-block;
+    border-radius: 6px;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(164, 164, 164);
+}
