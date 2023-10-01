@@ -1,0 +1,54 @@
+.InputContainer {
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.InputBox {
+    width: 200px;
+    padding: 12px 18px;
+    border-radius: 24px;
+    border: 1px solid #B3ABBC;
+    outline-color: #685879;
+    /* outline-color: #EE7D52; */
+    -webkit-transition: 150ms;
+}
+
+.InputBox::placeholder {
+    color: #685879;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    /* Firefox */
+}
+
+.InputBox:hover {
+    border: 1px solid #685879;
+}
+
+.ErrorIcon {
+    transform: scale(1);
+    position: absolute;
+    right: 18px;
+    display: none;
+}
+
+.SuccessIcon {
+    transform: scale(1);
+    position: absolute;
+    right: 18px;
+    display: none;
+}
+
+.ErrorMsg {
+    color: #EE7D52;
+    position: absolute;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    top: 44px;
+    left: 18px;
+}
+
+
+/* .InputBox:focus~.ErrorIcon {
+    display: block;
+} */
