@@ -1,0 +1,39 @@
+.InputContainer {
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.InputBox {
+    width: 200px;
+    padding: 12px 18px;
+    border-radius: 24px;
+    border: 1px solid #B3ABBC;
+    outline-color: #685879;
+    -webkit-transition: 150ms;
+    -webkit-text-security: 'asterisks';
+}
+
+.InputBox::placeholder {
+    color: #685879;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.InputBox:hover {
+    border: 1px solid #685879;
+}
+
+.EyeIcon {
+    transform: scale(1);
+    position: absolute;
+    right: 18px;
+    cursor: pointer;
+}
+
+.EyeOpenIcon {
+    transform: scale(1.1);
+    position: absolute;
+    right: 18px;
+    cursor: pointer;
+}
