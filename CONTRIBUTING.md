@@ -1,39 +1,47 @@
-Contributing Guidelines
+# Contributing Guidelines
+
 Thank you for considering contributing to our project! We welcome contributions from everyone.
 
-Getting Started
+## Getting Started
+
 Before you start contributing, please follow these steps:
 
-Fork the repository.
+1. Fork the repository.
 
-Clone your forked repository to your local machine.
+2. Clone your forked repository to your local machine.
 
-git clone https://github.com/bhaskarcsawant/ReactUIComponents.git
+```
+git clone https://github.com/[YOUR_USER_NAME]/ReactUIComponents.git
+```
 
-Create a new branch for your contribution.
+3. Create a new branch for your contribution.
 
-Make your changes and commit them with a descriptive message.
+4. Make your changes and commit them with a descriptive message.
 
-Push your changes to your branch.
+5. Push your changes to your branch.
 
-Open a Pull Request on the original repository.
+6. Open a Pull Request on the original repository.
 
-Guidelines
-Please follow the coding style and conventions used in the project.
+## Guidelines
 
-Ensure that your code is well-documented and easy to understand.
+- Please follow the coding style and conventions used in the project.
 
-Test your changes thoroughly before submitting a Pull Request.
+- Ensure that your code is well-documented and easy to understand.
 
-Make sure your Pull Request addresses a specific issue. If one doesn't exist, create one.
+- Test your changes thoroughly before submitting a Pull Request.
 
-Code of Conduct
+- Make sure your Pull Request addresses a specific issue. If one doesn't exist, create one.
+
+## Code of Conduct
+
 Please note that we have a Code of Conduct. Please follow it in all your interactions with the project.
 
-License
-By contributing to this project, you agree that your contributions will be licensed under the MIT License.
+## License
+
+By contributing to this project, you agree that your contributions will be licensed under the [MIT License](LICENSE).
 
 Thank you for your contributions and support in this project better!
 
-Happy Coding 🚀
+## Happy Coding 🚀
+
 Thank you for your contribution!
